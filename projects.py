@@ -19,4 +19,3 @@ df = [dict(Task="ESF-ALL4HER", Start='2019-01', Finish='2021-03', Lead = 'Fatih'
 
 fig = ff.create_gantt(df, show_colorbar=True, showgrid_x=True, showgrid_y=True, title='Projects Timeline', height=800, index_col='Lead')
 fig.show()
-fig.write_html("Gantt2.html")
